@@ -1,0 +1,46 @@
+<ion-app>
+  <ion-menu menuId="main-menu" contentId="main">
+    <ion-content>
+      <div class="menu-header-bg"></div>
+      <div class="header-content">
+        <img
+          src="https://tusegurodeviaje.net/wp-content/uploads/2016/08/Usuario_4.pn"
+          alt=""
+        />
+        <ion-label>
+          <h2>Usuario</h2>
+          <p>Plan premium</p>
+        </ion-label>
+      </div>
+
+      <div class="action-button">
+        <ion-button
+          ><ion-icon slot="start" name="add"></ion-icon> Realizar nuevo viaje
+        </ion-button>
+      </div>
+
+      <ion-list class="menu-items" lines="none">
+        <ion-item>
+          <ion-icon name="pie-chart-outline"></ion-icon> Agregar 1
+        </ion-item>
+        <ion-item>
+          <ion-icon name="browsers-outline"></ion-icon> Agregar 2
+        </ion-item>
+        <ion-item class="active">
+          <ion-icon name="flash"></ion-icon>Agregar 3
+        </ion-item>
+        <ion-item>
+          <ion-icon name="chatbubble-ellipses-outline"></ion-icon>Agregar 4
+        </ion-item>
+        <ion-item>
+          <ion-icon name="heart-outline"></ion-icon>Agregar 5
+        </ion-item>
+        <ion-item>
+          <ion-icon name="exit-outline"></ion-icon>Cerrar sesión
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-menu>
+
+  <ion-router-outlet id="main"></ion-router-outlet>
+</ion-app>
